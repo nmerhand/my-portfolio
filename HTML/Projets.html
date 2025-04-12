@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/Font.css">
+    <link rel="stylesheet" href="../CSS/projets.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="no-active" href="Accueil.html">Accueil</a>
+            <a class="active">Projets</a>
+            <a class="no-active" href="VeilleTechno.html">Ma Veille Technologique</a>
+        </nav>
+        <div class="barre"></div>
+    </header>
+    <h1>Projets</h1>
+    <p id="sous-titre">Au cours de mon BTS, j'ai réalisé de nombreux projets, professionels et personnels.</p>
+    <div class="container">
+        <fieldset class="annees">
+            <legend class="name-annee">Première année</legend>
+            
+            <p class="perso-pro">Projets professionels</p>
+            <fieldset class='bulle' onclick="window.location.href='ProjetPython.html'">
+                <a class="button">
+                    <legend class="name-project">Python</legend>
+                    <span class="description">Gestion de Logs</span> <br />
+                    <span></span> <br />
+                    <span></span> <br />
+                </a>
+            </fieldset>
+            <fieldset class='bulle' onclick="window.location.href='Intranet.html'">
+                <a class="button">
+                    <legend class="name-project">Intranet</legend>
+                    <span class="description">Création d'un intranet d'entreprise</span> <br />
+                    <span></span> <br />
+                </a>
+            </fieldset>
+            <fieldset class='bulle' onclick="window.location.href='ProjetThali.html'">
+                <a class="button">
+                    <legend class="name-project">Thali</legend>
+                    <span class="description">Gestion d'excursions pour un centre de thalassothérapie</span> <br />
+                </a>
+            </fieldset>
+            <hr style="border: none; border-top: 2px solid #7e907e8e; margin: 1rem 2rem;">
+            
+            <p class="perso-pro">Projets personnels</p>
+            <fieldset class='bulle' onclick="window.location.href='JartDeco.html'">
+                <a class="button">
+                    <legend class="name-project">J'art déco</legend>
+                    <span class="description">Mini-entreprise de l'EREA La Rivière</span> <br />
+                    <span></span> <br />
+                </a>
+            </fieldset>
+        </fieldset> <br />
+
+        <fieldset class="annees">
+            <legend class="name-annee">Deuxième année</legend>
+        </fieldset>
+
+    </div>
+    <footer>
+        <div id="social-container">
+            <a href="https://www.linkedin.com/in/nora-merhand-a372432aa/" target="_blank"><img
+                    src="../Images/Linkedin.png" width="20" height="20" class="social-icon"></a>
+            <a href="https://www.linkedin.com/in/nora-merhand-a372432aa/" class="social" target="_blanc">Linkedin</a>
+        </div>
+    </footer>
+</body>
+
+</html>
